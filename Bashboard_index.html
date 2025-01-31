@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="'viewpoint" content=""width=device-width, initial-scale="1.0">
+        <title>Real-Time Threat Montor</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">    
+    </head>
+    <body>
+        <div class="continer">
+            <h1>Real-Time Threat Monitor</h1>
+            <div id="Threat">
+                <h2>Detected Threat</h2>
+                <ul id="'Threat-list"></ul>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+        <script src="'{{url_for('static',filename='script.js')}}"></script>
+    </body>
+</html>
