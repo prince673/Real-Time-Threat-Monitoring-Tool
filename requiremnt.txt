@@ -1,0 +1,7 @@
+scapy
+slack_sdk
+psutil
+flask
+flask_socketio
+pyyaml
+requests
